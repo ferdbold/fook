@@ -1,0 +1,41 @@
+/**
+ * Theme Name: Fook
+ * Author: Frédéric Bolduc & Gabrielle Bastien
+ */
+
+header {
+    background-color: darkblue;
+    color: white;
+}
+header small {
+    color: lightblue;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* POST */
+.fook-post {
+    margin-top: 1em;
+}
+
+/* STICKY FOOTER */
+.fook-page-wrap {
+  min-height: 100%;
+  margin-bottom: -4em; 
+}
+
+.fook-page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.fook-footer, .fook-page-wrap:after {
+  height: 4em; 
+}
+
+.fook-footer {
+    background-color: pink;
+    color: white;
+}
